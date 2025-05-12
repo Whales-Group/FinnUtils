@@ -1,0 +1,22 @@
+name: finn_utils
+description: "A Flutter plugin providing lightweight utility tools: HTTP client builder, local storage handler, and response settlement helper."
+version: 0.0.1
+homepage: https://digitwhale.com
+repository: https://github.com/Whales-Group/FinnUtils
+issue_tracker: https://github.com/Whales-Group/FinnUtils/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  shared_preferences: ^2.2.2
+  result_dart: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0

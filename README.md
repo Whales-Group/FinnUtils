@@ -1,19 +1,17 @@
-# finn_utils
+# 🛠️ Finn Utils
 
-A new Flutter plugin project.
+A Dart & Flutter plugin providing helpful utility functions to speed up mobile development with common tools like:
 
-## Getting Started
+- 📡 `client()` — A preconfigured Dio HTTP client.
+- 💾 `finnUtilsStorage` — A typed storage `util`.
+- ⚖️ `settle()` — A Result-handling utility for wrapping async operations using `result_dart`.
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## 🚀 Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Add to your `pubspec.yaml`:
 
-The plugin project was generated without specifying the `--platforms` flag, no platforms are currently supported.
-To add platforms, run `flutter create -t plugin --platforms <platforms> .` in this directory.
-You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/to/pubspec-plugin-platforms.
-# FinnUtils
+```yaml
+dependencies:
+  finn_utils:
+    git:
+      url: https://github.com/Whales-Group/FinnUtils.git

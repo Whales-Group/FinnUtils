@@ -1,0 +1,10 @@
+## 📜 `CHANGELOG.md`
+
+```md
+## 0.0.1
+
+🎉 Initial release of `finn_utils`!
+
+- Added `client()` for HTTP requests using Dio.
+- Added `finnUtilsStorage` for persistent key-value storage.
+- Added `settle()` for functional async error handling using `result_dart`.
