@@ -4,8 +4,7 @@ A Dart & Flutter plugin providing helpful utility functions to speed up mobile d
 
 - 📡 `client()` — A preconfigured Dio HTTP client.
 - 💾 `finnUtilsStorage` — A typed storage `util`.
-- ⚖️ `settle()` — A Result-handling utility for wrapping async operations using `result_dart`.
-
+- ⚖️ `settle()` — A Result-handling utility for wrapping async operations.
 ## 🚀 Getting Started
 
 Add to your `pubspec.yaml`:

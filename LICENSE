@@ -7,4 +7,4 @@
 
 - Added `client()` for HTTP requests using Dio.
 - Added `finnUtilsStorage` for persistent key-value storage.
-- Added `settle()` for functional async error handling using `result_dart`.
+- Added `settle()` for functional async error handling.

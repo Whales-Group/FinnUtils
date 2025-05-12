@@ -20,4 +20,4 @@ This is the first release of `finn_utils` — a simple utility plugin to acceler
   A lightweight, storage util for persistent local storage.
 
 - `settle()`  
-  A `Result<T, String>`-based function wrapper using `result_dart` for clean and readable error handling in async operations.
+  A `Result<T, String>`-based function for clean and readable error handling in async operations.
